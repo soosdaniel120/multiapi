@@ -34,7 +34,7 @@
 				$host = parse_url( $url, PHP_URL_HOST );
 
 				$json = file_get_contents( $phantomcookies . '?host=' . $host );
-
+				
 				$pc = json_decode( $json, TRUE );
 
 				$cookies = '';
@@ -61,7 +61,7 @@
 
 			} else {}
 
-			print $result;
+			echo $result;
 
 		} else {}
 
