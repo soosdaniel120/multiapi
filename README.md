@@ -20,5 +20,8 @@ multiapi-config.php
 
 ?>
 ```
+```
+http://localhost/multiapis/?request=https://example.com
+```
 ## Logo
 [psyonyx](https://www.fiverr.com/psyonyx)
