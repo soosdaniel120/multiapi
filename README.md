@@ -9,7 +9,7 @@ tar -xf /tmp/multiapi.tar.gz -C /tmp
 rm -rf /tmp/multiapi.tar.gz
 mv /tmp/multiapi-0.2 /var/www/multiapi
 ```
-## Usage
+## Usage (example)
 multiapi-config.php
 ```
 <?php
@@ -23,5 +23,6 @@ multiapi-config.php
 ```
 http://localhost/multiapis/?request=https://example.com
 ```
+Output: JSON.
 ## Logo
 [psyonyx](https://www.fiverr.com/psyonyx)
