@@ -21,7 +21,7 @@ multiapi-config.php
 ?>
 ```
 ```
-http://localhost/multiapis/?request=https://example.com
+http://localhost/multiapi/?request=https://example.com
 ```
 Output: JSON.
 ## Logo
