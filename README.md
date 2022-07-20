@@ -10,6 +10,15 @@ rm -rf /tmp/multiapi.tar.gz
 mv /tmp/multiapi-0.2 /var/www/multiapi
 ```
 ## Usage
-Example:
+multiapi-config.php
+```
+<?php
+
+	$pattern = '/(?<host>http(s|):\/\/?([^\/]+)?)/';
+	$url = '{$host}/wp-json/wp/v2/posts';
+	$phantomcookies = 'http://localhost/phantomcookies/';
+
+?>
+```
 ## Logo
 [psyonyx](https://www.fiverr.com/psyonyx)
